@@ -41,3 +41,9 @@ Este é um repositório feito durante minha jornada de aprendendizado a linguage
  9. **Bibliotecas Python Populares**
  - Visão geral de bibliotecas como NumPy, pandas e matplotlib
  - Aplicações práticas com exemplos
+
+## Como Usar Este Repositório
+
+1. Clone o repositório para o seu ambiente local:
+   ```bash
+   git clone https://github.com/isaacmachado138/aprendizado-python.git
