@@ -1,0 +1,13 @@
+# Arquivos e diretórios a serem ignorados no projeto
+
+# Arquivos de bytecode Python
+__pycache__/
+
+# Arquivos de ambiente virtual
+venv/
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração local
+.env
