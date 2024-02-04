@@ -2,6 +2,7 @@
 
 # Arquivos de bytecode Python
 __pycache__/
+modules/__pycache__/
 
 # Arquivos de ambiente virtual
 venv/
