@@ -12,6 +12,11 @@ def Logger(level, message):
 
 
     import logging
+    import os
+
+    # Obtém o caminho absoluto da pasta raiz do projeto
+    caminhoRaiz = os.path.abspath(os.path.dirname(__file__))
+    caminhoLog = os.path.join(caminhoRaiz, "Log.log") #caminho que sera usado para salvar logs
 
     logger = logging.getLogger(__name__)
 
@@ -21,7 +26,7 @@ def Logger(level, message):
 
         # Criando objetos de log para exibir na tela e gravar no arquivo
         streamHandler = logging.StreamHandler()
-        fileHandler = logging.FileHandler("./file.log")
+        fileHandler = logging.FileHandler(caminhoLog)
 
         # Criando formatação
         format = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
